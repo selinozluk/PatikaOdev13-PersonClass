@@ -6,18 +6,17 @@ Bu proje, C# programlama dili ile Nesne Yönelimli Programlama (OOP) konusunun t
 
 - `Person` adında bir sınıf tanımlanmıştır.
 - Bu sınıf; `Name`, `Surname` ve `Birthdate` olmak üzere 3 adet public özellik (property) içermektedir.
-- `Main` metodunda bu sınıftan iki adet nesne oluşturulmuş ve konsola yazdırılmıştır.
+- `Birthdate` özelliği `DateTime` türündedir ve tam doğum tarihi bilgisi tutulur.
+- `Main` metodunda bu sınıftan iki adet nesne oluşturulmuş ve bilgileri konsola yazdırılmıştır.
 
-### Sınıf Özellikleri (Property'ler):
+## Sınıf Özellikleri (Property'ler)
 
-- `Name` (Ad)
-- `Surname` (Soyad)
-- `Birthdate` (Doğum yılı - sadece yıl)
+- `Name` → Ad
+- `Surname` → Soyad
+- `Birthdate` → Doğum Tarihi (DateTime)
 
-### Yapılanlar:
+## Yapılanlar
 
 - `Person` sınıfı tanımlandı.
-- Bu sınıftan farklı nesneler oluşturuldu.
-- Bu nesnelerin bilgileri konsola yazdırıldı.
-
-
+- Bu sınıftan iki farklı nesne oluşturuldu.
+- Oluşturulan nesnelerin bilgileri konsola yazdırıldı.
