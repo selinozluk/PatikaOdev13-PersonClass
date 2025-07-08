@@ -11,6 +11,6 @@ namespace OOP_Class
     {
         public string Name { get; set; }
         public string Surname { get; set; }
-        public int Birthdate { get; set; } 
+        public DateTime Birthdate { get; set; } 
     }
 }

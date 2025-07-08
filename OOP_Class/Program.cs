@@ -12,7 +12,7 @@ Person person1 = new Person(); // Nesne oluşturuldu
 
 person1.Name = "Billie";
 person1.Surname = "Eilish";
-person1.Birthdate = 2001;
+person1.Birthdate = new DateTime(2001, 1, 1);
 
 
 Console.WriteLine($"Kişinin adı: {person1.Name}");
@@ -26,7 +26,7 @@ Person person2 = new Person
 
 Name = "Finneas",
 Surname = "O'Connel",
-Birthdate = 1997,
+Birthdate = new DateTime(1997, 1, 1)
 
 };
 
